@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Pill</string>
+    <string name="history">Historico</string>
+    <string name="packs">Cartelas</string>
+    <string name="alarm">Alarme</string>
+    <string name="saved_position">saved_position</string>
+    <string name="btn_add">Adicionar</string>
+    <string name="btn_remove">Remover</string>
+    <string name="delete_message">Deseja remover esta cartela?</string>
+    <string name="title_packs">Cartelas</string>
+    <string name="sunday_short">dom</string>
+    <string name="monday_short">seg</string>
+    <string name="tuesday_short">ter</string>
+    <string name="wednesday_short">qua</string>
+    <string name="thursday_short">qui</string>
+    <string name="friday_short">sex</string>
+    <string name="saturday_short">sab</string>
+    <string name="config_pack_title">Nova Cartela</string>
+    <string name="default_new_pack_name">Nova Cartela</string>
+    <string name="config_pack_name_hint">Nome</string>
+    <string name="config_pack_time_hint">Início</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="errmsg_duplicate_pack">Cartela já existe.</string>
+    <string name="errmsg_blank_date">Selecione data inicial.</string>
+    <string name="errmsg_blank_name">Nome não pode estar vazio.</string>
+    <string name="notification_title">Pill</string>
+    <string name="notification_text">Não se esqueça da pílula!</string>
+    <string name="channel_name">notification_channel</string>
+    <string name="channel_description">notification_channel_desc</string>
+    <string name="notification">Notificação</string>
+    <string name="notification_time_hint">Horário</string>
+    <string name="saved_notification_time">saved_notification_time</string>
+    <string name="saved_notification_state">saved_notification_state</string>
+</resources>

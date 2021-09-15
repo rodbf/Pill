@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary500</item>
+        <item name="colorPrimaryDark">@color/colorPrimary700</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:datePickerDialogTheme">@style/MyDatePickerDialog</item>
+        <item name="android:timePickerDialogTheme">@style/MyTimePickerDialog</item>
+        <item name="colorControlActivated">@color/colorPrimary500</item>
+    </style>
+
+    <style name="MyCardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/colorPrimary100</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="cardCornerRadius">10dp</item>
+    </style>
+
+    <style name="MyDatePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+        <item name="android:headerBackground">@color/colorPrimary500</item>
+    </style>
+
+    <style name="MyTimePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:timePickerStyle">@style/MyTimePickerStyle</item>
+    </style>
+
+    <style name="MyTimePickerStyle" parent="@android:style/Widget.Material.Light.TimePicker">
+        <item name="android:headerBackground">@color/colorPrimary500</item>
+        <item name="android:timePickerMode">clock</item>
+    </style>
+
+
+</resources>
